@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #F2F2F2;
+}
+
+p {
+    color: white;
+}
+
+.sedans {
+    background-color:   #E28625;
+    width: 50vh;
+    height: 200px;
+}
+
+.suvs {
+    background-color: #006971;
+    width: 50vh;
+    height: 200px;
+}
+
+.luxury {
+    background-color: #004140;
+    width: 50vh;
+    height: 200px;
+}
+
+@media screen and (min-widht: 375px) {
+    .sedans {
+        width: 80%;
+        background-color: red;
+    }
+}
